@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&family=Caveat+Brush&display=swap');
+
+/*all headings affected*/
+h1,h2,h3,h4,h5,h6{
+    font-family: "Bevan";
+    font-size: 35pt;
+}
+
+body{ /*didnt overide heading because of cascading*/
+    font-family:"Caveat Brush";
+    background-color: #002EFA;
+    color: #FFF100;
+} /* first used body, then when heading was seen, used heading selector */
+
+header{
+    text-align: center;
+}
+
+#hero,footer{
+    text-align: center;
+    background-color: #00A0FF;
+    padding: 10px;
+    border: 4px solid #07FAEB;
+}
+
+#hero img{
+    width: 300px;
+}
+
+#bio{
+    background-color: #C47200;
+    text-align: center;
+    border: 8px solid #FAC000;
+}
