@@ -34,6 +34,14 @@ header{
     border: 8px solid #FAC000;
 }
 
+#hobbies{
+    padding: 10px;
+}
+
+#hobbies ul{
+    font-size: 25px;
+}
+
 #gallery{
     padding: 10px;
     border: 10px solid #FFF100;
