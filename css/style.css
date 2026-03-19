@@ -41,12 +41,21 @@ header{
     flex-direction: column;
     align-items: center;
 }
-#hobbies *{ /*  the star is to apply everything with a boarder for bug checking*/
+
+/*
+#hobbies * {  
+the star is to apply everything with a boarder for bug checking
  border: 1px solid grey;
 }
+*/
 
 #hobbies ul{
     font-size: 25px;
+    margin-top: 0px;
+}
+
+#hobbies h2{
+    margin-bottom: 0px;
 }
 
 #gallery{
@@ -80,6 +89,26 @@ article{
     font-size: 20px;
 }
 
+ article div{
+        max-width:100%;
+        columns: 25rem;
+        padding: 2em;
+    }
+
+article p::first-letter{  
+    background-image: radial-gradient(black, blue);
+    font-size: 40px;
+    display: block;
+    float: left;
+    margin-right:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 8px double yellow;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+    
+
+}
+
 @media (min-width: 960px){
 
     body{
@@ -95,7 +124,30 @@ article{
         display:flex;
         justify-content: center;
         align-items: center;
-        font-size: 4rem;
+        font-size: 3rem;
         margin-left: 1rem;
+    }
+
+    article p::first-letter{  
+    background-image: radial-gradient(black, orange);
+}
+    
+}
+
+@media (min-width: 1175px) {
+
+    #gallery{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #gallery hr{
+         display: none;
+    }
+
+    #gallery h2{
+        grid-column: 1/-1;
+    }
+    #gallery figcaption{
+        font-size: 2rem;
     }
 }
