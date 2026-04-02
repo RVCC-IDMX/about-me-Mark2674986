@@ -105,8 +105,10 @@ article p::first-letter{
     padding-right: 10px;
     border: 8px double yellow;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
-    
+}
 
+#video iframe{
+    max-width: 100%;
 }
 
 @media (min-width: 960px){
