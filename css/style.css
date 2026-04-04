@@ -117,10 +117,18 @@ article p::first-letter{
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
+#video h2{
+    margin-bottom: 0px;
+}
+
 #video iframe{
     max-width: 100%;
-    padding-bottom: 10px;
+    margin-bottom: 25px; /*spaced out the video from border around video section */
+    /* padding would have extended the border around the video */
     aspect-ratio: 4/3;
+    border: 5px solid #FFF100;
+    border-radius: 15px;
 }
 
 @media (min-width: 960px){
