@@ -242,5 +242,7 @@ select{
     #contact form{
     max-width: 900px;
 }
-
+#contact input{
+    font-size: 18px;
+}
 }
