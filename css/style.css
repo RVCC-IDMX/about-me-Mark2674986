@@ -131,6 +131,59 @@ article p::first-letter{
     border-radius: 15px;
 }
 
+#contact h2{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#contact form{
+    width: auto;
+    max-width: 700px;
+    padding: 6px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+fieldset{
+    color: #FFF100;
+    border: 2px solid #FFF100;
+
+}
+
+#email, #name, #phone, #phonetype, #message{
+  width: 100%;
+  display: inline-block;
+}
+
+fieldset li{
+    list-style: none;
+}
+
+select{
+    font-size: 20px;
+}
+
+#contact textarea{
+    resize: vertical;
+    max-height: 260px;
+}
+
+#contact input{
+    font-size: 25px;
+}
+#contact button{
+    width: 100%;
+    padding: 6px;
+    margin-top: 6px;
+    background-color: #C47200;
+    color: #FFF100;
+    border: 4px solid #FFF100;
+    font-size: 25px;
+}
+
+
+
 @media (min-width: 960px){
 
     body{
@@ -152,9 +205,14 @@ article p::first-letter{
 
     article p::first-letter{  
     background-image: radial-gradient(black, orange);
+    }
+
+    #contact form{
+    font-size: 20px;
+}
 }
     
-}
+
 
 @media (min-width: 1175px) {
 
@@ -172,4 +230,17 @@ article p::first-letter{
     #gallery figcaption{
         font-size: 2rem;
     }
+
+    #contact button{
+        font-size: 20px;
+    }
+
+    select{
+    font-size: 18px;
+    }
+
+    #contact form{
+    max-width: 900px;
+}
+
 }
