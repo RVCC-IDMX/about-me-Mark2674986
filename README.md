@@ -1,3 +1,62 @@
 # README
+Author: Marcos Teixeira
+
+# About Me 
+
+The About Me project is a website that encapluates everything about myself. The main color scheme of the project is a mix of orange, blue, and yellow. The content included within the project starts with a general description of who I am and some hobbies of mine. There is an image gallery with 3 images that represent my own interests such as photography and art. Following the gallery is a research blog about a topic I’m interested in. Below the blog includes a video, giving an overview of my midterm project for Web development I. At the end of the website, there exists a contact form to reach out to me about anything related to the website or anything else, as well as my copy right for the website.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/25433f91-fcc1-4a2f-b3c6-a5952d6a2ec8/deploy-status)](https://app.netlify.com/projects/about-me-mark2674986/deploys)
+
+## Purpose
+
+The purpose of this project was to help teach me the basics there is to web development. 
+
+Topics covered include:
+
+- Using github and netlify
+    - managing a repo, pushing and commiting changes, using different branches, deploying github projects to netlify
+
+- box model and flexbox usage
+    - organnization of sections such as hobbies and even elements such as figures
+
+- Responsive layout for any device (media states)
+    - different design for moblie vs desktop webpages
+
+- implementing embbed media
+    - incorprated a video giving an overview of my mid term project
+
+- CSS
+    - organization of the entire website including colors and layout choices
+
+- forms and interfact elements
+    - Navigation bar buttons plus contact form implementation
+
+- Navigation, Transitions, & Animation
+    - Navigation bar and scroll type
+
+
+## Color Scheme
+ 
+A majority of the project is high contrasting colors of blue, orange, and yellow, with a hint a white and red in the nav bar
+
+examples:
+
+![Example of red nave bar with the main color scheme on desktop](<Screenshot 2026-04-21 161042.png>) 
+
+![Example of blue, orange, and yellow color scheme on desktop](<Screenshot 2026-04-21 160928.png>)
+
+![Example of color scheme on moblie](<Screenshot 2026-04-21 161527.png>)
+
+colors used:
+
+#00A0FF (light blue), #07FAEB (cyan), #FFF100 (slighly darker yellow), 
+#C47200 (slighlty darker orange), #FAC000 (lighter and less contrasting orange), 
+#FFA500 (less contrasting orange), #002EFA (blue)
+
+## Citations
+
+## License
+
+© 2026 Marcos Teixeira
 
 
