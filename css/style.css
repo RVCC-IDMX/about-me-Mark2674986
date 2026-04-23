@@ -36,6 +36,7 @@ header{
     border: 8px solid #FFF100;
     border-radius: 15px;
     margin-bottom: 10px;
+    font-size: 20px;
 }
 
 #hobbies{
@@ -58,7 +59,7 @@ the star is to apply everything with a boarder for bug checking
 */
 
 #hobbies ul{
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 0px;
 }
 
@@ -81,6 +82,10 @@ the star is to apply everything with a boarder for bug checking
 
 #gallery figure{
     text-align: center;
+}
+
+#gallery figcaption{
+font-size: 24px;
 }
 
 #gallery img{
@@ -215,7 +220,6 @@ footer a{
         display:flex;
         justify-content: center;
         align-items: center;
-        font-size: 3rem;
         margin-left: 1rem;
     }
 
@@ -232,6 +236,11 @@ footer a{
     margin-bottom: 5px ;
     max-width: 1000px;
 }
+
+#gallery figcaption{
+font-size: 50px;
+}
+
 }
     
 
@@ -270,6 +279,19 @@ footer a{
 
 footer a{
     font-size: 18px;
+}
+
+
+#bio{
+font-size: 18px;
+}
+
+#hobbies{
+font-size: 20px;
+}
+
+#gallery figcaption{
+font-size: 22px;
 }
 
 }
