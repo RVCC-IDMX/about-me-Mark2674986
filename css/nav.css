@@ -20,7 +20,8 @@ main{
 }
 /* nav bar */
 .navbar{
-    background: brown;
+    background: #00A0FF;
+    border: 10px solid #FFF100;
     color:white;
     display: flex;
     flex-direction: column;
@@ -30,6 +31,11 @@ main{
 .logo{
     display: flex;
     justify-content: center;
+    margin: 5px;
+}
+
+.logo h1{
+margin-left: 15px;
 }
 
 /* navigation list */

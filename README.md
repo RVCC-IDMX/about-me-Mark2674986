@@ -41,16 +41,14 @@ A majority of the project is high contrasting colors of blue, orange, and yellow
 
 examples:
 
-![Example of red nave bar with the main color scheme on desktop](<Screenshot 2026-04-21 161042.png>) 
+![Example of blue, orange, and yellow color scheme on desktop plus nav bar](</img/color scheme desktop ex.png>)
 
-![Example of blue, orange, and yellow color scheme on desktop](<Screenshot 2026-04-21 160928.png>)
-
-![Example of color scheme on moblie](<Screenshot 2026-04-21 161527.png>)
+![Example of color scheme on moblie](</img/moblie read me ex.png>)
 
 colors used:
 
-#00A0FF (light blue), #07FAEB (cyan), #FFF100 (slighly darker yellow), 
-#C47200 (slighlty darker orange), #FAC000 (lighter and less contrasting orange), 
+#00A0FF (light blue), #FFF100 (slighly darker yellow), 
+#C47200 (slighlty darker orange), Black,  
 #FFA500 (less contrasting orange), #002EFA (blue)
 
 ## Citations
