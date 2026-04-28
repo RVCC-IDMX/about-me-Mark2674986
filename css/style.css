@@ -109,9 +109,13 @@ article{
     font-size: 20px;
 }
 
+article img{
+   max-width: 100%;
+}
+
  article div{
         max-width:100%;
-        columns: 25rem;
+        columns: 24rem;
         padding: 2em;
     }
 

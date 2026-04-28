@@ -52,6 +52,44 @@ colors used:
 #FFA500 (less contrasting orange), #002EFA (blue)
 
 ## Citations
+Blog post sources: 
+
+
+<u> What NBA players, coaches and execs are saying about tanking </u> 
+
+https://www.espn.com/nba/story/_/id/48414627/nba-tanking-adam-silver-league-problem-solutions-epidemic 
+
+talks about tanking in the modern nba with opinions from current day nba figures
+
+Author: Anthony Slater    
+Published: April 8th, 2026
+
+<br></br>
+<u>What is tanking? A history of the NBA's controversial lottery strategy  </u> 
+
+explains the history of the nba draft system
+
+https://www.nbcsportsboston.com/nba/boston-celtics/what-is-tanking-a-history-of-the-nbas-controversial-lottery-strategy/254117/  
+
+Author: Charlotte Edmonds   
+Published: May 16th 2022
+
+<br></br>
+<u>NBA’s widespread tanking has come at a significant cost for the entire league</u>
+
+explores tanking results in the modern nba
+
+https://www.nytimes.com/athletic/7175030/2026/04/06/nba-tanking-costs-blowouts/
+
+Author: John Hollinger   
+Published: April 6th, 2026
+
+<br></br>
+<u>Basketball Reference</u>
+
+Keeps up to date information about nba stats, including the information of the 2025-2026 nba standings which I used
+
+https://www.basketball-reference.com/leagues/NBA_2026_ratings.html
 
 ## License
 
