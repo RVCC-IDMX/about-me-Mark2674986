@@ -32,7 +32,7 @@ Topics covered include:
     - Navigation bar buttons plus contact form implementation
 
 - Navigation, Transitions, & Animation
-    - Navigation bar and scroll type
+    - Navigation bar with a hamburger menu and scroll type
 
 
 ## Color Scheme
