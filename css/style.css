@@ -30,6 +30,10 @@ header{
     width: 300px;
 }
 
+#hero p{
+    font-size: 20px;
+}
+
 #bio{
     background-color: #C47200;
     text-align: center;
