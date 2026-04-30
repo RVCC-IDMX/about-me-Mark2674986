@@ -111,15 +111,66 @@ article{
 
 article img{
    max-width: 100%;
+   position: absolute;/* stacks items ontop of eachother in each visual div */
+   border: 6px solid #FFF100;
 }
 
- article div{
+article p{
+    margin-bottom: 2px;
+}
+
+article h3{
+    margin: 2px;
+    font-size: 26px;
+}
+
+#bullsstats, #bullslogo, #wizstats, #wizlogo{
+    transition-duration: 1s;
+    transition-timing-function: ease ;
+}
+
+#bullvisual, #wizvisual{
+    display: flex;
+    align-items:center; /*y-axis fix*/
+    justify-content:center; /*x-axis fix*/
+}
+
+#bullsstats{
+    opacity: 0;
+}
+
+#bullvisual:hover #bullslogo{
+    opacity: 0;
+}
+
+#bullvisual:hover #bullsstats{
+    opacity: 1;
+    border: 6px solid #00A0FF;
+}
+
+
+#wizstats{
+    opacity: 0;
+}
+
+#wizvisual:hover #wizlogo{
+    opacity: 0;
+}
+
+#wizvisual:hover #wizstats{
+    opacity: 1;
+    border: 6px solid #00A0FF;
+}
+
+
+
+article div{
         max-width:100%;
         columns: 24rem;
         padding: 2em;
-    }
+}
 
-article p::first-letter{  
+article p:first-of-type:first-letter{  
     background-image: radial-gradient(black, blue);
     font-size: 40px;
     display: block;
@@ -227,7 +278,7 @@ footer a{
         margin-left: 1rem;
     }
 
-    article p::first-letter{  
+    article p:first-of-type:first-letter{  
     background-image: radial-gradient(black, #FFA500);
     }
 
