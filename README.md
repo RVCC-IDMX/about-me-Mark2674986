@@ -81,6 +81,8 @@ explores tanking results in the modern nba
 
 https://www.nytimes.com/athletic/7175030/2026/04/06/nba-tanking-costs-blowouts/
 
+- images used in the blog from this site
+
 Author: John Hollinger   
 Published: April 6th, 2026
 
