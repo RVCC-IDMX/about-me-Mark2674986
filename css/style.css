@@ -21,28 +21,46 @@ header{
     text-align: center;
     background-color: #00A0FF;
     padding: 10px;
-    border: 4px solid #07FAEB;
-    
+    border: 4px solid #FFF100;
+    border-radius: 15px;  
+    margin-bottom: 10px;
 }
 
 #hero img{
     width: 300px;
+    border: 4px solid #FFF100;
+    border-radius: 15px;
+}
+
+#hero p{
+    font-size: 20px;
 }
 
 #bio{
     background-color: #C47200;
     text-align: center;
-    border: 8px solid #FAC000;
+    border: 8px solid #FFF100;
     border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#bio p{
+    line-height: 14px;
 }
 
 #hobbies{
     padding: 10px;
     display: flex;
+    background-color: #C47200;
     text-align: center;
     flex-direction: column;
     align-items: center;
+    border: 8px solid #FFF100;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
+
 
 /*
 #hobbies * {  
@@ -52,8 +70,13 @@ the star is to apply everything with a boarder for bug checking
 */
 
 #hobbies ul{
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 0px;
+}
+
+#hobbies li{
+    max-width: 500px;
+    line-height: 30px;
 }
 
 #hobbies h2{
@@ -71,6 +94,10 @@ the star is to apply everything with a boarder for bug checking
     text-align: center;
 }
 
+#gallery figcaption{
+font-size: 24px;
+}
+
 #gallery img{
     max-width: 100%;
 }
@@ -82,6 +109,7 @@ the star is to apply everything with a boarder for bug checking
 
 #gallery h2{
     padding:10px;
+    text-align: center;
 }
 
 article{
@@ -92,13 +120,68 @@ article{
     font-size: 20px;
 }
 
- article div{
-        max-width:100%;
-        columns: 25rem;
-        padding: 2em;
-    }
+article img{
+   max-width: 100%;
+   position: absolute;/* stacks items ontop of eachother in each visual div */
+   border: 6px solid #FFF100;
+}
 
-article p::first-letter{  
+article p{
+    margin-bottom: 2px;
+}
+
+article h3{
+    margin: 2px;
+    font-size: 26px;
+}
+
+#bullsstats, #bullslogo, #wizstats, #wizlogo{
+    transition-duration: 1s;
+    transition-timing-function: ease ;
+}
+
+#bullvisual, #wizvisual{
+    display: flex;
+    align-items:center; /*y-axis fix*/
+    justify-content:center; /*x-axis fix*/
+}
+
+#bullsstats{
+    opacity: 0;
+}
+
+#bullvisual:hover #bullslogo{
+    opacity: 0;
+}
+
+#bullvisual:hover #bullsstats{
+    opacity: 1;
+    border: 6px solid #00A0FF;
+}
+
+
+#wizstats{
+    opacity: 0;
+}
+
+#wizvisual:hover #wizlogo{
+    opacity: 0;
+}
+
+#wizvisual:hover #wizstats{
+    opacity: 1;
+    border: 6px solid #00A0FF;
+}
+
+
+
+article div{
+        max-width:100%;
+        columns: 24rem;
+        padding: 2em;
+}
+
+article p:first-of-type:first-letter{  
     background-image: radial-gradient(black, blue);
     font-size: 40px;
     display: block;
@@ -106,7 +189,7 @@ article p::first-letter{
     margin-right:10px;
     padding-left: 10px;
     padding-right: 10px;
-    border: 8px double yellow;
+    border: 8px double #FFF100;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
 }
 #video{
@@ -182,12 +265,16 @@ select{
     font-size: 25px;
 }
 
+footer a{
+    font-size: 22px;
+}
+
 
 
 @media (min-width: 960px){
 
     body{
-        background-color: orange;
+        background-color: #FFA500;
     }
 
     figure{
@@ -199,17 +286,27 @@ select{
         display:flex;
         justify-content: center;
         align-items: center;
-        font-size: 3rem;
         margin-left: 1rem;
     }
 
-    article p::first-letter{  
-    background-image: radial-gradient(black, orange);
+    article p:first-of-type:first-letter{  
+    background-image: radial-gradient(black, #FFA500);
     }
 
     #contact form{
     font-size: 20px;
 }
+
+#hobbies li{
+    margin-top: 5px;
+    margin-bottom: 5px ;
+    max-width: 1000px;
+}
+
+#gallery figcaption{
+font-size: 50px;
+}
+
 }
     
 
@@ -228,7 +325,7 @@ select{
         grid-column: 1/-1;
     }
     #gallery figcaption{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
 
     #contact button{
@@ -245,4 +342,22 @@ select{
 #contact input{
     font-size: 18px;
 }
+
+footer a{
+    font-size: 18px;
+}
+
+
+#bio{
+font-size: 18px;
+}
+
+#hobbies{
+font-size: 20px;
+}
+
+#gallery figcaption{
+font-size: 22px;
+}
+
 }

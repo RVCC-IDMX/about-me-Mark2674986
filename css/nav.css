@@ -11,7 +11,7 @@ get rid of padding and sizing on body so header is at top
 body{
     box-sizing: border-box;
     padding:0;
-    margin: 0;
+    margin:0;
 }
 
 /* add some padding back to rest of page */
@@ -20,31 +20,65 @@ main{
 }
 /* nav bar */
 .navbar{
-    background: brown;
+    background: #00A0FF;
+    border: 10px solid #FFF100;
     color:white;
     display: flex;
     flex-direction: column;
+}
+
+.menu, .close{
+    position: absolute;
+    width:3rem;
+    margin-right: 50px;
+    top:0;
+    right: 0;
+    margin-top: 125px;
+}
+
+.close{
+    display: none;
+}
+
+#nav_checkbox{
+    display: none;
 }
 
 /* logo */
 .logo{
     display: flex;
     justify-content: center;
+    margin: 5px;
+}
+
+.logo h1{
+margin-left: 15px;
 }
 
 /* navigation list */
-.navbar-links ul{
+.menu-links ul{
     padding: 0;
 }
-.navbar-links li{
+.menu-links li{
     list-style: none;
     display: block;
     padding: 0.5em 0;
-
 }
 
+#nav_checkbox:checked ~ ul.menu-links li{
+    display: block;
+} 
+
+#nav_checkbox:checked ~ label.nav_toggle .close{
+    display: block;
+} 
+
+#nav_checkbox:checked ~ label.nav_toggle .menu{
+    display: none;
+} 
+
 /* style all a tags in header and then on hover */
-.navbar-links a{
+.menu-links a{
     color: white;
     font-size: 1.5em;
     padding: 0.2em;
@@ -54,10 +88,15 @@ main{
     display: inline-block;
 }
 
-.navbar-links a:hover{
+
+.menu-links a:hover{
     color: #FFF100;
     border: 1px solid #FFF100;
     background-color: #00A0FF;
+}
+
+.menu-links li{
+    display: none;
 }
 
 /* media query for non moblie nav 
@@ -78,9 +117,17 @@ such that not text wraps*/
         justify-content: space-between;
     }
 
-    .navbar-links a{
+    .menu-links a{
     padding: 0.5em;
     margin: 0.5rem;
     border: none;
 }
+.menu-links{
+    margin-right: 120px;
+}
+
+.menu, .close{
+     margin-top: 55px;
+}
+
 }
